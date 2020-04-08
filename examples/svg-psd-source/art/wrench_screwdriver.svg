@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="182.34903mm"
+   height="164.58626mm"
+   viewBox="0 0 182.34903 164.58626"
+   version="1.1"
+   id="svg3211"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="wrench_screwdriver.svg">
+  <defs
+     id="defs3205" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="0.26183555"
+     inkscape:cy="60.155601"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:pagecheckerboard="true"
+     inkscape:snap-bbox="true"
+     inkscape:snap-bbox-midpoints="true"
+     inkscape:bbox-nodes="true"
+     inkscape:bbox-paths="true"
+     inkscape:snap-bbox-edge-midpoints="true"
+     inkscape:snap-global="false"
+     inkscape:window-width="2560"
+     inkscape:window-height="1051"
+     inkscape:window-x="1280"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata3208">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-12.910611,-45.138382)">
+    <rect
+       style="fill:#800080;fill-opacity:1;stroke:none;stroke-width:2.15052438;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect3762-3"
+       width="18.93347"
+       height="116.25143"
+       x="147.97621"
+       y="-34.346199"
+       transform="rotate(45)" />
+    <path
+       style="fill:#800080;fill-opacity:1;stroke:none;stroke-width:4.73991013;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 564.57227,170.61328 a 107.85715,107.85715 0 0 0 -77.8418,31.57813 107.85715,107.85715 0 0 0 0,152.5332 107.85715,107.85715 0 0 0 152.5332,0 107.85715,107.85715 0 0 0 29.97852,-94.05273 l -71.94531,71.94531 -76.36329,-12.09571 -12.0957,-76.36132 71.99023,-71.99024 a 107.85715,107.85715 0 0 0 -16.25585,-1.55664 z"
+       transform="scale(0.26458333)"
+       id="path3756"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#800080;fill-opacity:1;stroke:none;stroke-width:4.7399106;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 158.22656,576.95703 a 107.85714,107.85714 0 0 0 -77.839841,31.58008 107.85714,107.85714 0 0 0 0,152.5332 107.85714,107.85714 0 0 0 152.531251,0 107.85714,107.85714 0 0 0 0,-152.5332 107.85714,107.85714 0 0 0 -74.69141,-31.58008 z m 24.26758,45.37891 36.60156,36.56836 0.0234,51.74023 -36.56836,36.60156 -51.74023,0.0254 -36.601566,-36.57031 -0.02344,-51.73828 36.568366,-36.60351 z"
+       transform="scale(0.26458333)"
+       id="path3756-6"
+       inkscape:connector-curvature="0" />
+    <rect
+       style="fill:#800080;fill-opacity:1;stroke:none;stroke-width:1.34283602;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect3800"
+       width="13.394062"
+       height="96.470871"
+       x="-16.633722"
+       y="84.350227"
+       transform="rotate(-45)" />
+    <rect
+       style="fill:#800080;fill-opacity:1;stroke:none;stroke-width:1.20053172;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect3804"
+       width="36.038189"
+       height="89.693657"
+       x="-27.95579"
+       y="180.82106"
+       rx="4.2057767"
+       ry="4.2057767"
+       transform="rotate(-45)" />
+    <path
+       style="fill:#800080;stroke:none;stroke-width:0.21581246px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 37.220558,55.286055 10.669723,16.1279 9.471042,-9.47104 -16.053068,-10.64634 z"
+       id="path3812"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>

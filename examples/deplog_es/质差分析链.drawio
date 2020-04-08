@@ -1,0 +1,95 @@
+<mxfile host="www.draw.io" modified="2020-02-07T06:38:16.031Z" agent="Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="cMFkxNNtEwVuDbXW_CiK" version="12.6.5" type="github">
+  <diagram id="TThq8IHbP9kn73CA3B07" name="Page-1">
+    <mxGraphModel dx="1008" dy="1542" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="cwsz-4PDzz_ghPZ8ZxQP-35" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;dashed=1;endArrow=none;endFill=0;" edge="1" parent="1" source="cwsz-4PDzz_ghPZ8ZxQP-16" target="cwsz-4PDzz_ghPZ8ZxQP-31">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="cwsz-4PDzz_ghPZ8ZxQP-39" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;endArrow=classic;endFill=1;fontSize=14;" edge="1" parent="1" source="cwsz-4PDzz_ghPZ8ZxQP-16" target="cwsz-4PDzz_ghPZ8ZxQP-8">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="cwsz-4PDzz_ghPZ8ZxQP-16" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fillColor=#b1ddf0;strokeColor=#10739e;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="507" y="80" width="175" height="160" as="geometry"/>
+        </mxCell>
+        <mxCell id="cwsz-4PDzz_ghPZ8ZxQP-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.93;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;curved=1;fontSize=14;" edge="1" parent="1" source="cwsz-4PDzz_ghPZ8ZxQP-1" target="cwsz-4PDzz_ghPZ8ZxQP-2">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="cwsz-4PDzz_ghPZ8ZxQP-1" value="" style="aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;shape=mxgraph.mscae.enterprise.user_permissions;fillColor=#0078D7;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="110" y="130" width="47" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="cwsz-4PDzz_ghPZ8ZxQP-2" value="&lt;b style=&quot;font-size: 14px;&quot;&gt;cache 服务器&lt;/b&gt;" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.cache_server;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="320" y="106.25" width="71" height="97.5" as="geometry"/>
+        </mxCell>
+        <mxCell id="cwsz-4PDzz_ghPZ8ZxQP-3" value="&lt;b style=&quot;font-size: 14px;&quot;&gt;内容中心&lt;/b&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.internet_gateway;fillColor=#F58536;gradientColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="560" y="119" width="69" height="72" as="geometry"/>
+        </mxCell>
+        <mxCell id="cwsz-4PDzz_ghPZ8ZxQP-6" value="" style="endArrow=classic;html=1;fontSize=14;" edge="1" parent="1" source="cwsz-4PDzz_ghPZ8ZxQP-2" target="cwsz-4PDzz_ghPZ8ZxQP-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="110" y="300" as="sourcePoint"/>
+            <mxPoint x="160" y="250" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cwsz-4PDzz_ghPZ8ZxQP-8" value="&lt;b style=&quot;font-size: 14px;&quot;&gt;源站&lt;/b&gt;" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/social-media-glossy/512/57-OpenSource_open_source_social-128.png;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="315" y="272.5" width="90" height="90" as="geometry"/>
+        </mxCell>
+        <mxCell id="cwsz-4PDzz_ghPZ8ZxQP-9" value="" style="endArrow=classic;html=1;fontSize=14;" edge="1" parent="1" source="cwsz-4PDzz_ghPZ8ZxQP-2" target="cwsz-4PDzz_ghPZ8ZxQP-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="110" y="460" as="sourcePoint"/>
+            <mxPoint x="160" y="410" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cwsz-4PDzz_ghPZ8ZxQP-34" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontSize=14;" edge="1" parent="1" source="cwsz-4PDzz_ghPZ8ZxQP-12" target="cwsz-4PDzz_ghPZ8ZxQP-17">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="cwsz-4PDzz_ghPZ8ZxQP-12" value="&lt;b style=&quot;font-size: 14px;&quot;&gt;根因分类&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/b&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;1.&amp;nbsp;源站故障的拨离和通告&lt;br style=&quot;font-size: 14px;&quot;&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="78" y="285" width="200" height="67" as="geometry"/>
+        </mxCell>
+        <mxCell id="cwsz-4PDzz_ghPZ8ZxQP-17" value="&lt;h1 style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;相应指标&lt;/font&gt;&lt;/h1&gt;&lt;p style=&quot;font-size: 14px;&quot;&gt;1. 回源5xx数、比例.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="110" y="386" width="136" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="cwsz-4PDzz_ghPZ8ZxQP-19" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="cwsz-4PDzz_ghPZ8ZxQP-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="-26" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cwsz-4PDzz_ghPZ8ZxQP-20" value="&lt;b style=&quot;font-size: 14px;&quot;&gt;根因分类&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/b&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;div style=&quot;text-align: left; font-size: 14px;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;1. 程序bug: nginx置ats为不可用&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; font-size: 14px;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;2.&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;带宽超容量&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; font-size: 14px;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;3.&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;磁盘读写溢出&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; font-size: 14px;&quot;&gt;4.&amp;nbsp;主机失联、重启&lt;/div&gt;&lt;div style=&quot;text-align: left; font-size: 14px;&quot;&gt;5.&amp;nbsp;配置错误&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="156" y="-90" width="214" height="128" as="geometry"/>
+        </mxCell>
+        <mxCell id="cwsz-4PDzz_ghPZ8ZxQP-21" value="&lt;h1 style=&quot;font-size: 14px&quot;&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;相应指标&lt;/font&gt;&lt;/h1&gt;&lt;p style=&quot;font-size: 14px&quot;&gt;1. 全节点全部5xx， 5xx比例上升&lt;/p&gt;&lt;p style=&quot;font-size: 14px&quot;&gt;2. 节点利用率&lt;/p&gt;&lt;p style=&quot;font-size: 14px&quot;&gt;3.&amp;nbsp; 节点系统指标：cpu 磁盘读写、内存信息&lt;/p&gt;&lt;p style=&quot;font-size: 14px&quot;&gt;4. 节点指标查全&lt;/p&gt;&lt;p style=&quot;font-size: 14px&quot;&gt;5. 所有指标劣化（带宽、成功率、首字节时延等）&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=14;align=left;" vertex="1" parent="1">
+          <mxGeometry x="460" y="-107" width="320" height="187" as="geometry"/>
+        </mxCell>
+        <mxCell id="cwsz-4PDzz_ghPZ8ZxQP-23" value="分析" style="endArrow=none;dashed=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fillColor=#b0e3e6;strokeColor=#0e8088;fontSize=14;" edge="1" parent="1" source="cwsz-4PDzz_ghPZ8ZxQP-20" target="cwsz-4PDzz_ghPZ8ZxQP-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="100" as="sourcePoint"/>
+            <mxPoint x="230" y="50" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cwsz-4PDzz_ghPZ8ZxQP-24" value="" style="endArrow=none;dashed=1;html=1;fillColor=#b1ddf0;strokeColor=#10739e;fontSize=14;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="cwsz-4PDzz_ghPZ8ZxQP-12" target="cwsz-4PDzz_ghPZ8ZxQP-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-44" y="644.5" as="sourcePoint"/>
+            <mxPoint x="224.18181818181824" y="417" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cwsz-4PDzz_ghPZ8ZxQP-30" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;" edge="1" parent="1" source="cwsz-4PDzz_ghPZ8ZxQP-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="665.5" y="321" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cwsz-4PDzz_ghPZ8ZxQP-31" value="&lt;b style=&quot;font-size: 14px&quot;&gt;根因分类&lt;br style=&quot;font-size: 14px&quot;&gt;&lt;/b&gt;&lt;br style=&quot;font-size: 14px&quot;&gt;1. 能力不足、上联带宽打满" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="488" y="263" width="200" height="67" as="geometry"/>
+        </mxCell>
+        <mxCell id="cwsz-4PDzz_ghPZ8ZxQP-32" value="&lt;h1 style=&quot;font-size: 14px&quot;&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;相应指标&lt;/font&gt;&lt;/h1&gt;&lt;p style=&quot;font-size: 14px&quot;&gt;1. 回源5xx数、比例&lt;/p&gt;&lt;p style=&quot;font-size: 14px&quot;&gt;2. 首字节响应时间、卡顿率.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="493.25" y="369.5" width="189.5" height="83" as="geometry"/>
+        </mxCell>
+        <mxCell id="cwsz-4PDzz_ghPZ8ZxQP-33" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=14;" edge="1" parent="1" source="cwsz-4PDzz_ghPZ8ZxQP-17" target="cwsz-4PDzz_ghPZ8ZxQP-17">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="cwsz-4PDzz_ghPZ8ZxQP-38" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;fontSize=14;" edge="1" parent="1" source="cwsz-4PDzz_ghPZ8ZxQP-31" target="cwsz-4PDzz_ghPZ8ZxQP-32">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

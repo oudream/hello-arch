@@ -1,0 +1,145 @@
+<mxfile modified="2019-12-27T01:11:49.906Z" host="www.draw.io" agent="Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36" etag="mkASr2l1HjsTY0nD0-j7" version="12.4.3" type="github" pages="1">
+  <diagram id="Ml5ODN0wVe8wcM0n2nqS" name="Page-1">
+    <mxGraphModel dx="1483" dy="773" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="xrqKfMXb2iHYaXQZjCiF-41" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="345" y="553" width="675.5" height="215" as="geometry"/>
+        </mxCell>
+        <mxCell id="xrqKfMXb2iHYaXQZjCiF-78" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="340" y="1170" width="170" height="270" as="geometry"/>
+        </mxCell>
+        <mxCell id="xrqKfMXb2iHYaXQZjCiF-76" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="80.5" y="1169" width="244" height="270" as="geometry"/>
+        </mxCell>
+        <mxCell id="xrqKfMXb2iHYaXQZjCiF-73" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="561" y="61.5" width="447" height="155" as="geometry"/>
+        </mxCell>
+        <mxCell id="xrqKfMXb2iHYaXQZjCiF-53" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="14" y="253" width="517.5" height="215" as="geometry"/>
+        </mxCell>
+        <mxCell id="xrqKfMXb2iHYaXQZjCiF-28" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="561" y="253" width="453" height="215" as="geometry"/>
+        </mxCell>
+        <mxCell id="58gLoho-wWl7CSoVatv_-5" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="61" y="65" width="447" height="155" as="geometry"/>
+        </mxCell>
+        <mxCell id="58gLoho-wWl7CSoVatv_-3" value="namenode&lt;br&gt;mysql&lt;br&gt;zookeeper&lt;br&gt;39.134.86.77" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.servers.physical_host;fillColor=#2072B8;" parent="1" vertex="1">
+          <mxGeometry x="749.5" y="319" width="27" height="52" as="geometry"/>
+        </mxCell>
+        <mxCell id="58gLoho-wWl7CSoVatv_-4" value="namenode&lt;br&gt;hive metaserver2&lt;br&gt;39.134.86.78" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.servers.physical_host;fillColor=#2072B8;" parent="1" vertex="1">
+          <mxGeometry x="640" y="319" width="27" height="52" as="geometry"/>
+        </mxCell>
+        <mxCell id="xrqKfMXb2iHYaXQZjCiF-26" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="21" y="629" width="262" height="193" as="geometry"/>
+        </mxCell>
+        <mxCell id="xrqKfMXb2iHYaXQZjCiF-27" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="520" y="1170" width="473" height="270" as="geometry"/>
+        </mxCell>
+        <mxCell id="xrqKfMXb2iHYaXQZjCiF-29" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="533" y="875" width="460" height="240" as="geometry"/>
+        </mxCell>
+        <mxCell id="xrqKfMXb2iHYaXQZjCiF-30" value="datanode&lt;br&gt;spark 2.2&lt;br&gt;&lt;b&gt;共计20台&lt;/b&gt;&lt;br&gt;39.134.135.117-39.134.135.119&lt;br&gt;39.134.135.121-39.134.135.123&lt;br&gt;39.134.135.142-39.134.135.145&lt;br&gt;39.134.135.60、39.134.135.161&lt;br&gt;39.134.135.41-39.134.135.47&lt;br&gt;&lt;br&gt;" style="shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.servers.physical_host_farm;fillColor=#2072B8;" parent="1" vertex="1">
+          <mxGeometry x="807" y="884" width="140" height="110" as="geometry"/>
+        </mxCell>
+        <mxCell id="xrqKfMXb2iHYaXQZjCiF-31" value="" style="endArrow=none;dashed=1;html=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="830" as="sourcePoint"/>
+            <mxPoint x="1120" y="830" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xrqKfMXb2iHYaXQZjCiF-32" value="kafka 5台&lt;br&gt;zookeeper 5台&lt;br&gt;&lt;b&gt;共计5台&lt;br&gt;&lt;/b&gt;&lt;b style=&quot;white-space: normal&quot;&gt;机房环境：北京大白楼&lt;/b&gt;&lt;br&gt;&lt;br&gt;39.134.135.73-39.134.135.74&lt;br&gt;39.134.135.107-39.134.135.109" style="shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.servers.physical_host_farm;fillColor=#2072B8;" parent="1" vertex="1">
+          <mxGeometry x="350" y="902.5" width="140" height="110" as="geometry"/>
+        </mxCell>
+        <mxCell id="xrqKfMXb2iHYaXQZjCiF-33" value="日志服务器&lt;br&gt;&lt;b&gt;共计7台&lt;br&gt;&lt;/b&gt;&lt;br&gt;39.134.135.58-&lt;br&gt;39.134.135.59&lt;br&gt;39.134.135.162-&lt;br&gt;39.134.135.163&lt;br&gt;39.134.135.154-&lt;br&gt;39.134.135.156" style="shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.servers.physical_host;fillColor=#2072B8;" parent="1" vertex="1">
+          <mxGeometry x="411.5" y="1217.5" width="27" height="52" as="geometry"/>
+        </mxCell>
+        <mxCell id="xrqKfMXb2iHYaXQZjCiF-34" value="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;北京二级中心：54台机器&lt;/b&gt;&lt;br&gt;&lt;b&gt;&lt;br&gt;主要功能：&lt;/b&gt;&lt;br&gt;1. 省级实时日志导出&lt;br&gt;2. 省级实时计算（一层汇聚）&lt;br&gt;3. 信安过滤&lt;br&gt;4. 离线基础表存储，汇总表计算&lt;br&gt;5.&amp;nbsp; crs日志上传&lt;br&gt;6. 阿里、咪咕等定制日志上传&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;" parent="1" vertex="1">
+          <mxGeometry x="70" y="889" width="208" height="180" as="geometry"/>
+        </mxCell>
+        <mxCell id="xrqKfMXb2iHYaXQZjCiF-35" value="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;一级全国中心(上海中心)：目前60台机器&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;span&gt;&lt;b&gt;主要功能：&lt;/b&gt;&lt;br&gt;1.&amp;nbsp;&lt;/span&gt;全国实时计算（顶层汇聚：运营运维指标计算和存储）&lt;br&gt;&lt;span&gt;2. 离线汇总表计算，报表统计&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;" parent="1" vertex="1">
+          <mxGeometry x="80.5" y="93" width="362" height="90" as="geometry"/>
+        </mxCell>
+        <mxCell id="xrqKfMXb2iHYaXQZjCiF-37" value="kafka+zookeeper 5台&lt;br&gt;&lt;b&gt;共计5台&lt;/b&gt;&lt;br&gt;39.135.1.195-39.135.1.199" style="shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.servers.physical_host_farm;fillColor=#2072B8;" parent="1" vertex="1">
+          <mxGeometry x="393" y="578" width="140" height="110" as="geometry"/>
+        </mxCell>
+        <mxCell id="xrqKfMXb2iHYaXQZjCiF-38" value="&lt;b&gt;hadoop 实时集群(共计22台)&lt;br&gt;由CM 管理&lt;br&gt;&lt;/b&gt;&lt;b&gt;机房环境：北京大白楼&lt;/b&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="703" y="1130" width="167" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="xrqKfMXb2iHYaXQZjCiF-40" value="&lt;b&gt;离线集群（共计17台）&lt;br&gt;&lt;/b&gt;zk可与datanode共机部署&lt;br&gt;&lt;font color=&quot;#006633&quot;&gt;&lt;b&gt;机房环境：浦东机房&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="723" y="488" width="160" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="xrqKfMXb2iHYaXQZjCiF-42" value="datanode&lt;br&gt;spark 2.2&lt;br&gt;&lt;b&gt;共计11台&lt;br&gt;&lt;/b&gt;39.135.1. 156-39.135.1.165&lt;br&gt;39.135.1.194" style="shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.servers.physical_host_farm;fillColor=#2072B8;" parent="1" vertex="1">
+          <mxGeometry x="809.5" y="567" width="140" height="110" as="geometry"/>
+        </mxCell>
+        <mxCell id="xrqKfMXb2iHYaXQZjCiF-43" value="&lt;b&gt;namenode 2台&lt;/b&gt;&lt;br&gt;39.135.1.154-39.135.1.155" style="shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.servers.physical_host_farm;fillColor=#2072B8;" parent="1" vertex="1">
+          <mxGeometry x="597" y="578" width="140" height="110" as="geometry"/>
+        </mxCell>
+        <mxCell id="xrqKfMXb2iHYaXQZjCiF-44" value="&lt;b&gt;实时集群，CM管理（共计18台）&lt;br&gt;&lt;/b&gt;&lt;span style=&quot;white-space: nowrap&quot;&gt;&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;机房环境：临港机房&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;zk与datanode共机部署" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="440.75" y="771" width="484" height="46" as="geometry"/>
+        </mxCell>
+        <mxCell id="xrqKfMXb2iHYaXQZjCiF-45" value="&lt;b&gt;lvs+ keepalived&amp;nbsp;&lt;/b&gt;&lt;br&gt;&lt;b&gt;共计2台&lt;br&gt;&lt;/b&gt;&lt;br&gt;39.134.135.145-&lt;br&gt;39.134.135.146" style="shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.servers.physical_host;fillColor=#2072B8;" parent="1" vertex="1">
+          <mxGeometry x="247.5" y="1230" width="27" height="52" as="geometry"/>
+        </mxCell>
+        <mxCell id="xrqKfMXb2iHYaXQZjCiF-46" value="datanode&lt;br&gt;zookeeper 5台&lt;br&gt;spark 2.4&lt;br&gt;&lt;b&gt;共计14台&lt;br&gt;&lt;/b&gt;39.134.135.112-39.134.135.114&lt;br&gt;39.134.135.116&lt;br&gt;39.134.135.132-39.134.135.141" style="shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.servers.physical_host_farm;fillColor=#2072B8;" parent="1" vertex="1">
+          <mxGeometry x="767.5" y="1195" width="140" height="110" as="geometry"/>
+        </mxCell>
+        <mxCell id="xrqKfMXb2iHYaXQZjCiF-47" value="namenode 2台&lt;br&gt;hive metestore 2台&lt;br&gt;&lt;b&gt;共计2台&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;39.134.135.110-39.134.135.111&lt;br&gt;&lt;/b&gt;&lt;br&gt;" style="shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.servers.physical_host_farm;fillColor=#2072B8;" parent="1" vertex="1">
+          <mxGeometry x="555" y="1195" width="140" height="110" as="geometry"/>
+        </mxCell>
+        <mxCell id="xrqKfMXb2iHYaXQZjCiF-48" value="&lt;b&gt;应用服务器+lvs（共计4台）&lt;br&gt;&lt;/b&gt;&lt;br&gt;&lt;b&gt;机房环境：北京大白楼&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="133.5" y="1470" width="160" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="xrqKfMXb2iHYaXQZjCiF-49" value="namenode 2台&lt;br&gt;&lt;b&gt;共计2台&lt;br&gt;&lt;br&gt;&lt;/b&gt;39.134.135.64&lt;br&gt;39.134.135.61" style="shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.servers.physical_host_farm;fillColor=#2072B8;" parent="1" vertex="1">
+          <mxGeometry x="577" y="911" width="140" height="110" as="geometry"/>
+        </mxCell>
+        <mxCell id="xrqKfMXb2iHYaXQZjCiF-50" value="日志服务器&amp;nbsp;&lt;br&gt;&lt;b&gt;共计8台&lt;/b&gt;&lt;br&gt;&lt;font color=&quot;#3333ff&quot;&gt;&lt;b&gt;机房环境：奉贤机房&lt;/b&gt;&lt;/font&gt;&lt;br&gt;39.134.86.235-39.134.86.242（8台）" style="shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.servers.physical_host_farm;fillColor=#2072B8;" parent="1" vertex="1">
+          <mxGeometry x="73" y="640" width="140" height="110" as="geometry"/>
+        </mxCell>
+        <mxCell id="xrqKfMXb2iHYaXQZjCiF-51" value="离线计算（&lt;b&gt;15台&lt;/b&gt;）&lt;br&gt;39.134.86.68 ~ 39.134.86.76&lt;br&gt;39.134.86.79 ~ 39.134.86.84" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.servers.physical_host_farm;fillColor=#2072B8;" parent="1" vertex="1">
+          <mxGeometry x="846.5" y="290" width="103" height="110" as="geometry"/>
+        </mxCell>
+        <mxCell id="xrqKfMXb2iHYaXQZjCiF-52" value="redis cluster&lt;br&gt;共计8台&lt;br&gt;39.135.1.148-39.135.1.153&lt;br&gt;39.135.1.167-168&lt;br&gt;&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;机房环境：临港机房&lt;/font&gt;&lt;/b&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.redis;fillColor=#2E73B8;gradientColor=none;" parent="1" vertex="1">
+          <mxGeometry x="86" y="282" width="60" height="63" as="geometry"/>
+        </mxCell>
+        <mxCell id="xrqKfMXb2iHYaXQZjCiF-54" value="&lt;b&gt;缓存、数据存储集群（共计12台）&lt;br&gt;&lt;/b&gt;zk可与namenode共机部署&lt;br&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;机房环境：临港机房&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="187.5" y="490" width="297.5" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="xrqKfMXb2iHYaXQZjCiF-55" value="hadoop、hbase计算节点&lt;br&gt;opentsdb 读写集群（5读5写）&lt;br&gt;&lt;b&gt;共计10台&lt;br&gt;&lt;font color=&quot;#ff0000&quot;&gt;机房环境：临港机房&lt;/font&gt;&lt;/b&gt;&lt;br&gt;39.135.1.150-39.135.1.153&lt;br&gt;39.135.1.167-39.135.1.172" style="shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.servers.physical_host_farm;fillColor=#2072B8;" parent="1" vertex="1">
+          <mxGeometry x="189" y="261" width="209" height="110" as="geometry"/>
+        </mxCell>
+        <mxCell id="xrqKfMXb2iHYaXQZjCiF-56" value="zookeeper&lt;br&gt;namenode&lt;br&gt;resourcemanger&lt;br&gt;39.135.1.148&lt;br&gt;39.135.1.149" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.servers.physical_host;fillColor=#2072B8;" parent="1" vertex="1">
+          <mxGeometry x="450.5" y="300" width="27" height="52" as="geometry"/>
+        </mxCell>
+        <mxCell id="xrqKfMXb2iHYaXQZjCiF-64" value="日志导出应用&lt;br&gt;&lt;b&gt;共计2台&lt;br&gt;&lt;/b&gt;&lt;b style=&quot;white-space: normal&quot;&gt;机房环境：北京大白楼&lt;/b&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;br&gt;&lt;font color=&quot;#ff0000&quot;&gt;39.134.135.62-&lt;br&gt;39.134.135.63&lt;/font&gt;" style="shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.servers.physical_host;fillColor=#2072B8;" parent="1" vertex="1">
+          <mxGeometry x="125" y="1230" width="27" height="52" as="geometry"/>
+        </mxCell>
+        <mxCell id="xrqKfMXb2iHYaXQZjCiF-69" value="接口服务器&lt;br&gt;&lt;b&gt;&lt;font color=&quot;#3333ff&quot;&gt;机房：奉贤机房&lt;/font&gt;&lt;/b&gt;&lt;br&gt;39.134.86.196" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.servers.physical_host;fillColor=#2072B8;" parent="1" vertex="1">
+          <mxGeometry x="668.25" y="109" width="27" height="52" as="geometry"/>
+        </mxCell>
+        <mxCell id="xrqKfMXb2iHYaXQZjCiF-70" value="咪咕上报服务器&lt;br&gt;&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;机房：临港机房&lt;/font&gt;&lt;/b&gt;&lt;br&gt;39.135.1.166" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.servers.physical_host;fillColor=#2072B8;" parent="1" vertex="1">
+          <mxGeometry x="767.25" y="109.5" width="27" height="52" as="geometry"/>
+        </mxCell>
+        <mxCell id="xrqKfMXb2iHYaXQZjCiF-71" value="爱奇艺日志服务器&lt;br&gt;&lt;b&gt;&lt;font color=&quot;#3333ff&quot;&gt;机房：奉贤机房&lt;/font&gt;&lt;/b&gt;&lt;br&gt;39.134.86.202" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.servers.physical_host;fillColor=#2072B8;" parent="1" vertex="1">
+          <mxGeometry x="880.75" y="109" width="27" height="52" as="geometry"/>
+        </mxCell>
+        <mxCell id="xrqKfMXb2iHYaXQZjCiF-75" value="应用服务器&lt;br&gt;&lt;b&gt;共计3台&lt;br&gt;&lt;/b&gt;机房环境：奉贤机房" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="725" y="32" width="126" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="xrqKfMXb2iHYaXQZjCiF-77" value="&lt;b&gt;离线集群（共计16台）&lt;/b&gt;&lt;br&gt;&lt;b&gt;由CM管理&lt;/b&gt;&lt;br&gt;&lt;b&gt;机房环境：北京大白楼&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="686.5" y="1470" width="160" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="2mKP9iOkfuiCr7M5qXMx-5" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="21" y="527" width="262" height="88" as="geometry"/>
+        </mxCell>
+        <mxCell id="2mKP9iOkfuiCr7M5qXMx-6" value="" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.servers.physical_host;fillColor=#2072B8;" vertex="1" parent="1">
+          <mxGeometry x="37.5" y="545" width="27" height="52" as="geometry"/>
+        </mxCell>
+        <mxCell id="2mKP9iOkfuiCr7M5qXMx-9" value="&lt;span style=&quot;white-space: nowrap&quot;&gt;&lt;b&gt;lvs+ keepalived &lt;br&gt;共计2台&lt;/b&gt;&lt;br&gt;&lt;b&gt;&lt;font color=&quot;#000099&quot;&gt;机房环境：奉贤机房&lt;/font&gt;&lt;/b&gt;&lt;br&gt;39.134.86.242-&lt;/span&gt;&lt;span style=&quot;white-space: nowrap&quot;&gt;39.134.86.244&lt;/span&gt;&lt;span style=&quot;white-space: nowrap&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="96.5" y="541.5" width="154" height="69" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

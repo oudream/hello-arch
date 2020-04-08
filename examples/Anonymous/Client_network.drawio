@@ -1,0 +1,82 @@
+<mxfile modified="2019-12-24T06:39:52.959Z" host="www.draw.io" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36" etag="I3NzoY67nCPQPGbvxg7p" version="12.4.3" type="github" pages="1">
+  <diagram id="0qXy8Reg5hbOZOl-131f" name="Page-1">
+    <mxGraphModel dx="934" dy="495" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="oRpRngnGORwK8TL-fAgR-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="100" y="476" width="440" height="49" as="geometry"/>
+        </mxCell>
+        <mxCell id="oRpRngnGORwK8TL-fAgR-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="100.5" y="230" width="440" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="oRpRngnGORwK8TL-fAgR-6" value="表现层" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="20" y="230" width="70" height="95" as="geometry"/>
+        </mxCell>
+        <mxCell id="oRpRngnGORwK8TL-fAgR-7" value="数据层" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="20" y="475" width="70" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="oRpRngnGORwK8TL-fAgR-9" value="异常客户&lt;br&gt;信息导出" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=5;" parent="1" vertex="1">
+          <mxGeometry x="336.5" y="245" width="90" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="oRpRngnGORwK8TL-fAgR-10" value="&lt;span style=&quot;font-size: 11px&quot;&gt;客户关系网络&lt;br&gt;可视化&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=5;" parent="1" vertex="1">
+          <mxGeometry x="108" y="245" width="97" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="oRpRngnGORwK8TL-fAgR-13" value="客户标注" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=5;" parent="1" vertex="1">
+          <mxGeometry x="440" y="245" width="94.75" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="oRpRngnGORwK8TL-fAgR-29" value="算法层" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="20" y="405" width="70" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="oRpRngnGORwK8TL-fAgR-30" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="99" y="405" width="441" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="oRpRngnGORwK8TL-fAgR-31" value="单维度分析" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=5;" parent="1" vertex="1">
+          <mxGeometry x="133.5" y="420" width="97" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="oRpRngnGORwK8TL-fAgR-32" value="聚类" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=5;" parent="1" vertex="1">
+          <mxGeometry x="408.5" y="420" width="89" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="oRpRngnGORwK8TL-fAgR-33" value="多维度综合分析" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=5;" parent="1" vertex="1">
+          <mxGeometry x="265.5" y="420" width="106" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="oRpRngnGORwK8TL-fAgR-41" value="业务&lt;br&gt;逻辑层" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="20.5" y="330" width="70" height="65" as="geometry"/>
+        </mxCell>
+        <mxCell id="oRpRngnGORwK8TL-fAgR-42" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="100.5" y="330" width="441" height="65" as="geometry"/>
+        </mxCell>
+        <mxCell id="oRpRngnGORwK8TL-fAgR-45" value="异常客户&lt;br&gt;列表维护" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=5;" parent="1" vertex="1">
+          <mxGeometry x="113.5" y="348" width="87" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="oRpRngnGORwK8TL-fAgR-50" value="零售客户社交&lt;br&gt;关系分析" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=5;" parent="1" vertex="1">
+          <mxGeometry x="217.5" y="348" width="106" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="oRpRngnGORwK8TL-fAgR-55" value="客户门店位置" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=5;" parent="1" vertex="1">
+          <mxGeometry x="113" y="486" width="87" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="oRpRngnGORwK8TL-fAgR-56" value="客户违规历史" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=5;" parent="1" vertex="1">
+          <mxGeometry x="217.5" y="485" width="87" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="oRpRngnGORwK8TL-fAgR-57" value="客户操作记录" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=5;" parent="1" vertex="1">
+          <mxGeometry x="322" y="485" width="87" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="oRpRngnGORwK8TL-fAgR-58" value="客户分类标签" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=5;" parent="1" vertex="1">
+          <mxGeometry x="426.5" y="486" width="87" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="oRpRngnGORwK8TL-fAgR-60" value="分析维度&lt;br&gt;维护" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=5;" parent="1" vertex="1">
+          <mxGeometry x="340" y="348" width="78" height="32" as="geometry"/>
+        </mxCell>
+        <mxCell id="oRpRngnGORwK8TL-fAgR-61" value="客户信息整合" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=5;" parent="1" vertex="1">
+          <mxGeometry x="430" y="348" width="89.5" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="fEOjPpR1VwwC_F3uVTrE-1" value="内管系统" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="100.5" y="290" width="440" height="35" as="geometry"/>
+        </mxCell>
+        <mxCell id="wgN9OZQQ6O-k_WcKY7xz-1" value="异常客户&lt;br&gt;信息可视化" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=5;" vertex="1" parent="1">
+          <mxGeometry x="225.5" y="245" width="90" height="30" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

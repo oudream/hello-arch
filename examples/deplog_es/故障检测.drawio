@@ -1,0 +1,66 @@
+<mxfile host="www.draw.io" modified="2019-11-22T09:07:26.091Z" agent="Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="-9XKdhgLuTdd4hwkcr-R" version="12.2.9" type="github" pages="1">
+  <diagram id="WU-Mf7eO4ejhyuT3WEMw" name="Page-1">
+    <mxGraphModel dx="1648" dy="788" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="eUpP9WjETJLdGQHR5dHJ-3" value="" style="aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.device;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="51" y="830" width="96" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="eUpP9WjETJLdGQHR5dHJ-5" value="" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/server_farm.svg;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="58" y="910" width="94" height="94" as="geometry"/>
+        </mxCell>
+        <mxCell id="eUpP9WjETJLdGQHR5dHJ-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpSize=20;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shadow=1;endSize=11;strokeColor=#006633;strokeWidth=3;fontSize=18;" edge="1" parent="1" source="eUpP9WjETJLdGQHR5dHJ-6" target="eUpP9WjETJLdGQHR5dHJ-7">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="eUpP9WjETJLdGQHR5dHJ-6" value="数据采集以及预处理&lt;br&gt;Data Pre-processing" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontSize=18;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="220" y="860" width="200" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="eUpP9WjETJLdGQHR5dHJ-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpSize=20;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.194;entryDx=0;entryDy=0;entryPerimeter=0;shadow=1;endSize=11;strokeColor=#006633;strokeWidth=3;fontSize=18;" edge="1" parent="1" source="eUpP9WjETJLdGQHR5dHJ-7" target="eUpP9WjETJLdGQHR5dHJ-8">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="eUpP9WjETJLdGQHR5dHJ-7" value="特征工程&lt;br&gt;Feature Engineering" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontSize=18;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="458" y="860" width="200" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="eUpP9WjETJLdGQHR5dHJ-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpSize=20;orthogonalLoop=1;jettySize=auto;html=1;exitX=-0.005;exitY=0.817;exitDx=0;exitDy=0;entryX=0.995;entryY=0.071;entryDx=0;entryDy=0;entryPerimeter=0;shadow=1;endSize=11;strokeColor=#006633;strokeWidth=3;fontSize=18;exitPerimeter=0;" edge="1" parent="1" source="eUpP9WjETJLdGQHR5dHJ-8" target="eUpP9WjETJLdGQHR5dHJ-10">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="eUpP9WjETJLdGQHR5dHJ-8" value="模型训练&lt;br&gt;Feature Engineering&lt;br&gt;&lt;br&gt;深度学习，集成检测&lt;br&gt;聚类分析， 集成学习" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontSize=18;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="727" y="860" width="200" height="180" as="geometry"/>
+        </mxCell>
+        <mxCell id="eUpP9WjETJLdGQHR5dHJ-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpSize=20;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.01;entryY=0.414;entryDx=0;entryDy=0;entryPerimeter=0;shadow=1;endSize=11;strokeColor=#006633;strokeWidth=3;fontSize=18;" edge="1" parent="1" source="eUpP9WjETJLdGQHR5dHJ-9" target="eUpP9WjETJLdGQHR5dHJ-10">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="eUpP9WjETJLdGQHR5dHJ-9" value="实时数据&lt;br&gt;Real-time Data" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontSize=18;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="213" y="996" width="200" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="eUpP9WjETJLdGQHR5dHJ-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpSize=20;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;shadow=1;endSize=11;strokeColor=#006633;strokeWidth=3;fontSize=18;" edge="1" parent="1" source="eUpP9WjETJLdGQHR5dHJ-10" target="eUpP9WjETJLdGQHR5dHJ-11">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="eUpP9WjETJLdGQHR5dHJ-10" value="预测模块&lt;br&gt;Prediction Module" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontSize=18;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="458" y="1002" width="200" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="eUpP9WjETJLdGQHR5dHJ-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=18;strokeColor=#006633;shadow=1;endSize=11;jumpSize=13;strokeWidth=3;" edge="1" parent="1" source="eUpP9WjETJLdGQHR5dHJ-11" target="eUpP9WjETJLdGQHR5dHJ-6">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="eUpP9WjETJLdGQHR5dHJ-21" value="&lt;font color=&quot;#7a7a7a&quot;&gt;反馈&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;labelBackgroundColor=#ffffff;fontSize=18;" vertex="1" connectable="0" parent="eUpP9WjETJLdGQHR5dHJ-12">
+          <mxGeometry x="-0.6864" relative="1" as="geometry">
+            <mxPoint as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eUpP9WjETJLdGQHR5dHJ-11" value="预测结果&lt;br&gt;OutPut" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontSize=18;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="949" y="1002" width="127" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="eUpP9WjETJLdGQHR5dHJ-20" value="" style="endArrow=classic;html=1;shadow=1;strokeColor=#006633;strokeWidth=3;fontSize=18;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="eUpP9WjETJLdGQHR5dHJ-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="895" as="sourcePoint"/>
+            <mxPoint x="100" y="1090" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eUpP9WjETJLdGQHR5dHJ-22" value="&lt;font color=&quot;#6b6b6b&quot;&gt;硬件设备&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;autosize=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="70" y="1018" width="82" height="26" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

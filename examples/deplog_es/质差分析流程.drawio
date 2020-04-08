@@ -1,0 +1,43 @@
+<mxfile host="www.draw.io" modified="2020-02-10T10:03:17.710Z" agent="Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="BvmNIBdpbIFnJQVz7w19" version="12.6.6" type="github">
+  <diagram id="sa9zcUj2uVVHCcjeJ6JN" name="Page-1">
+    <mxGraphModel dx="768" dy="373" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="QiOhKSFU1Nh_yRada5sg-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=15;" edge="1" parent="1" source="QiOhKSFU1Nh_yRada5sg-1" target="QiOhKSFU1Nh_yRada5sg-4">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="QiOhKSFU1Nh_yRada5sg-1" value="&lt;b style=&quot;font-size: 15px;&quot;&gt;数据采集以及预处理&lt;br style=&quot;font-size: 15px;&quot;&gt;Data Pre-processing&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="192.5" y="130" width="188.5" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="QiOhKSFU1Nh_yRada5sg-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=15;" edge="1" parent="1" source="QiOhKSFU1Nh_yRada5sg-2" target="QiOhKSFU1Nh_yRada5sg-1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="QiOhKSFU1Nh_yRada5sg-2" value="" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/server_farm.svg;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="251" y="25" width="75.75" height="75.75" as="geometry"/>
+        </mxCell>
+        <mxCell id="QiOhKSFU1Nh_yRada5sg-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=15;" edge="1" parent="1" source="QiOhKSFU1Nh_yRada5sg-4" target="QiOhKSFU1Nh_yRada5sg-5">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="QiOhKSFU1Nh_yRada5sg-4" value="&lt;b style=&quot;font-size: 15px;&quot;&gt;指标计算和存储&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="192.5" y="217" width="183.5" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="QiOhKSFU1Nh_yRada5sg-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=15;" edge="1" parent="1" source="QiOhKSFU1Nh_yRada5sg-5" target="QiOhKSFU1Nh_yRada5sg-10">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="QiOhKSFU1Nh_yRada5sg-5" value="&lt;b style=&quot;font-size: 15px;&quot;&gt;指标劣化分析&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="192.5" y="292" width="183.5" height="55" as="geometry"/>
+        </mxCell>
+        <mxCell id="QiOhKSFU1Nh_yRada5sg-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=15;" edge="1" parent="1" source="QiOhKSFU1Nh_yRada5sg-10" target="QiOhKSFU1Nh_yRada5sg-11">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="QiOhKSFU1Nh_yRada5sg-10" value="&lt;b style=&quot;font-size: 15px;&quot;&gt;自动故障根因分析&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="192.5" y="374" width="178.5" height="59" as="geometry"/>
+        </mxCell>
+        <mxCell id="QiOhKSFU1Nh_yRada5sg-11" value="&lt;b style=&quot;font-size: 15px;&quot;&gt;故障告警&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="192.5" y="455" width="178.5" height="41" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
