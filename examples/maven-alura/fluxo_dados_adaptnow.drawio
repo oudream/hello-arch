@@ -1,0 +1,100 @@
+<mxfile host="www.draw.io" modified="2020-02-17T18:54:57.295Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.100 Safari/537.36" etag="7byDZGn9TxHbl0kaKETp" version="12.7.1" type="github">
+  <diagram id="fX4rt8zVbkg2EH8_-9JV" name="Page-1">
+    <mxGraphModel dx="786" dy="489" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="QAaNXLK2RTlJVhRcctQ1-2" value="Atendente" style="swimlane;startSize=20;horizontal=0;" parent="1" vertex="1">
+          <mxGeometry width="640" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="QAaNXLK2RTlJVhRcctQ1-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="QAaNXLK2RTlJVhRcctQ1-2" source="QAaNXLK2RTlJVhRcctQ1-9" target="QAaNXLK2RTlJVhRcctQ1-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QAaNXLK2RTlJVhRcctQ1-9" value="Solicitação&lt;br&gt;de&lt;br&gt;Atendimento" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;fillColor=#ffff88;strokeColor=#36393d;" parent="QAaNXLK2RTlJVhRcctQ1-2" vertex="1">
+          <mxGeometry x="110" y="20" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QAaNXLK2RTlJVhRcctQ1-11" value="ERP encaminha para triagem&lt;br&gt;(codigo paciente, nome)" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;fillColor=#cdeb8b;strokeColor=#36393d;" parent="QAaNXLK2RTlJVhRcctQ1-2" vertex="1">
+          <mxGeometry x="390" y="20" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QAaNXLK2RTlJVhRcctQ1-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="QAaNXLK2RTlJVhRcctQ1-2" source="QAaNXLK2RTlJVhRcctQ1-13" target="QAaNXLK2RTlJVhRcctQ1-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QAaNXLK2RTlJVhRcctQ1-13" value="Fone consulta convênio&lt;br&gt;(CPF, nome,&lt;br&gt;endereço,&lt;br&gt;nº carteira)" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;fillColor=#ffff88;strokeColor=#36393d;" parent="QAaNXLK2RTlJVhRcctQ1-2" vertex="1">
+          <mxGeometry x="250" y="20" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SSbyOKh9BHDC3fB_ObMG-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="QAaNXLK2RTlJVhRcctQ1-2" source="SSbyOKh9BHDC3fB_ObMG-10" target="QAaNXLK2RTlJVhRcctQ1-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SSbyOKh9BHDC3fB_ObMG-10" value="" style="shape=mxgraph.bpmn.shape;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;outline=throwing;symbol=general;" parent="QAaNXLK2RTlJVhRcctQ1-2" vertex="1">
+          <mxGeometry x="30" y="40" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QAaNXLK2RTlJVhRcctQ1-3" value="Triagem" style="swimlane;startSize=20;horizontal=0;" parent="1" vertex="1">
+          <mxGeometry y="120" width="640" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="QAaNXLK2RTlJVhRcctQ1-19" value="ERP encaminha para especialista&lt;br&gt;(codigo paciente, nome,&lt;br&gt;sintomas)" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;fillColor=#cdeb8b;strokeColor=#36393d;" parent="QAaNXLK2RTlJVhRcctQ1-3" vertex="1">
+          <mxGeometry x="150" y="20" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QAaNXLK2RTlJVhRcctQ1-4" value="Especialista" style="swimlane;startSize=20;horizontal=0;" parent="1" vertex="1">
+          <mxGeometry y="240" width="640" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="SSbyOKh9BHDC3fB_ObMG-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="QAaNXLK2RTlJVhRcctQ1-4" source="QAaNXLK2RTlJVhRcctQ1-21" target="SSbyOKh9BHDC3fB_ObMG-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QAaNXLK2RTlJVhRcctQ1-21" value="ERP solicita exames&lt;br&gt;(codigo paciente, nome)" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;fillColor=#cdeb8b;strokeColor=#36393d;" parent="QAaNXLK2RTlJVhRcctQ1-4" vertex="1">
+          <mxGeometry x="150" y="25" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SSbyOKh9BHDC3fB_ObMG-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="QAaNXLK2RTlJVhRcctQ1-4" source="SSbyOKh9BHDC3fB_ObMG-4" target="SSbyOKh9BHDC3fB_ObMG-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SSbyOKh9BHDC3fB_ObMG-4" value="ERP emissão de laudo&lt;br&gt;(codigo paciente, nome, laudo)" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;fillColor=#cdeb8b;strokeColor=#36393d;" parent="QAaNXLK2RTlJVhRcctQ1-4" vertex="1">
+          <mxGeometry x="370" y="20" width="110" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="SSbyOKh9BHDC3fB_ObMG-9" value="" style="shape=mxgraph.bpmn.shape;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;outline=throwing;symbol=general;" parent="QAaNXLK2RTlJVhRcctQ1-4" vertex="1">
+          <mxGeometry x="570" y="45" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SSbyOKh9BHDC3fB_ObMG-16" value="FIM" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="QAaNXLK2RTlJVhRcctQ1-4" vertex="1">
+          <mxGeometry x="570" y="55" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="QAaNXLK2RTlJVhRcctQ1-5" value="Laboratório" style="swimlane;startSize=20;horizontal=0;" parent="1" vertex="1">
+          <mxGeometry y="360" width="640" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="SSbyOKh9BHDC3fB_ObMG-3" value="ERP encaminha resultados&lt;br&gt;(codigo paciente, nome, resultados)" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;fillColor=#cdeb8b;strokeColor=#36393d;" parent="QAaNXLK2RTlJVhRcctQ1-5" vertex="1">
+          <mxGeometry x="150" y="25" width="110" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="QAaNXLK2RTlJVhRcctQ1-8" value="Convênio" style="swimlane;startSize=20;horizontal=0;" parent="1" vertex="1">
+          <mxGeometry y="480" width="640" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="QAaNXLK2RTlJVhRcctQ1-16" value="Fone autoriza atendimento&lt;br&gt;(código atendimento, nome)" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;fillColor=#ffff88;strokeColor=#36393d;" parent="QAaNXLK2RTlJVhRcctQ1-8" vertex="1">
+          <mxGeometry x="70" y="20" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QAaNXLK2RTlJVhRcctQ1-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;endArrow=none;endFill=0;" parent="1" source="QAaNXLK2RTlJVhRcctQ1-13" target="QAaNXLK2RTlJVhRcctQ1-16" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="110" />
+              <mxPoint x="130" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QAaNXLK2RTlJVhRcctQ1-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;endArrow=none;endFill=0;" parent="1" source="QAaNXLK2RTlJVhRcctQ1-16" target="QAaNXLK2RTlJVhRcctQ1-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SSbyOKh9BHDC3fB_ObMG-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;endArrow=none;endFill=0;" parent="1" source="QAaNXLK2RTlJVhRcctQ1-19" target="QAaNXLK2RTlJVhRcctQ1-21" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SSbyOKh9BHDC3fB_ObMG-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;endArrow=none;endFill=0;" parent="1" source="QAaNXLK2RTlJVhRcctQ1-21" target="SSbyOKh9BHDC3fB_ObMG-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SSbyOKh9BHDC3fB_ObMG-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;endArrow=none;endFill=0;" parent="1" source="SSbyOKh9BHDC3fB_ObMG-3" target="SSbyOKh9BHDC3fB_ObMG-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SSbyOKh9BHDC3fB_ObMG-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;endArrow=none;endFill=0;" parent="1" source="QAaNXLK2RTlJVhRcctQ1-11" target="QAaNXLK2RTlJVhRcctQ1-19" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="445" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

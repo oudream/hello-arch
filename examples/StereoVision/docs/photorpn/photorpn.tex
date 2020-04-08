@@ -1,0 +1,48 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath, amsfonts, graphicx}
+\usepackage{hyperref, indentfirst}
+\usepackage{bbold}
+%opening
+\title{Photos as Projective Spaces}
+\author{}
+\newcommand{\diag}{\mathop{\mathrm{diag}}}
+%\vspace{-15ex}
+\date{}
+
+
+\begin{document}
+\maketitle
+%\section{Introduction}
+
+In the previous post we deduced the formula which relates the 3D coordinates of a point $(x_1, x_2, x_3 )$ with the 2D coordinates $(\xi_1, \xi_2)$ of the image of that point on the photo (formula (2) from the previous post):
+
+\begin{equation}
+\xi_1 = \frac{x_1}{x_3}, \quad\xi_2 = \frac{x_2}{x_3}\label{proj}
+\end{equation}
+
+%For our purposes, throughout this post, we have set $f=1$. We can achieve it by changing the units of measure on the photo; $\xi_i\to \xi_i/f$. 
+
+By construction, this formula is true for points which lie in front of the camera, i.e. $x_3>0$. 
+
+For our purposes, however, we would like to have a nice mathematical model of the photo, a relation between the 3D points and, possibly, some imaginary extension of the picture, such that it includes (almost) all 3D points and we should not worry if, after a small movement of the camera, a certain point is still on the photo, has appeared or disappeared from it. For $x_3 > 0$ the model should give \eqref{proj}.
+
+Since \eqref{proj} is defined for $x_3>0$ hemi-space only and, taking into account its geometric derivation, we can interpret it as follows: the camera identifies all points on a ray starting from the origin. In other words,  all points which in the 3D space lie on a ray starting from the origin (the optical center of the camera) are projected on a single point on the photo.  Hence, a natural generalization would be to interpret a photo as  the set of rays starting from the origin. 
+
+Topologically, the space of rays starting from the origin is isomorphic to sphere. Indeed, if we place the center of the sphere in the origin, then a point on the sphere uniquely identities a ray and, vice versa, a ray uniquely identifies a point on the sphere. 
+
+Although justified physically (opposite rays really correspond to different directions), this assumption leads to serious modeling problems. Indeed, all points which lie behind the camera, i.e. $x_3< 0$, should be projected on the opposite side of the sensor and hence, we will not have a single formula for all points. Besides, any small rotation which involves the axis $x_3$ will move some points from one side of the sensor to the other.
+
+{\bf What if we simply extend the domain of the \eqref{proj} to the whole 3D-space, i.e. assume that the formulae are true also for $x_3 < 0$?} 
+
+With this assumption, the formulae \eqref{proj} imply that all points which lie on a line passing through the origin are projected on a single point on the photo. Although this is counter-intuitive  from the physical perspective it makes the mathematical model very simple. The projection of the whole world on the photo (except the plane $x_3=0$ which we will consider in the upcoming post ) is given via the simple formula \eqref{proj}. 
+
+The problem with such a model is that it identifies two opposite directions. On the other hand, we assume that two antipodal points never appear on the same photo.
+
+The space of lines passing through the origin is called real projective space and denoted $\mathbb{RP}^2$. We will focus on the study of real projective spaces of different dimensions and their applications in the upcoming posts.
+
+For now, let us notice, that $\mathbb{RP}^2$ is a sphere where we identify two antipodal points. Such a space cannot be even embedded in $\mathbb{R}^3$, i.e. we cannot neither draw it,  nor even print it on a 3D-printer.
+
+\end{document}
+
+

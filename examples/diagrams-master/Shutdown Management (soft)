@@ -1,0 +1,103 @@
+<mxfile host="app.diagrams.net" modified="2020-03-30T01:13:38.749Z" agent="5.0 (Windows)" etag="16MtFX4siYkIlhtLdkOP" version="12.9.4" type="github">
+  <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
+    <mxGraphModel dx="1718" dy="911" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="dNxyNK7c78bLwvsdeMH5-19" value="&lt;div&gt;Shutdown Management&lt;/div&gt;" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=20;horizontalStack=0;" parent="1" vertex="1">
+          <mxGeometry x="40" y="120" width="830" height="700" as="geometry" />
+        </mxCell>
+        <mxCell id="dNxyNK7c78bLwvsdeMH5-20" value="HTTP" style="swimlane;html=1;startSize=20;horizontal=0;" parent="dNxyNK7c78bLwvsdeMH5-19" vertex="1">
+          <mxGeometry x="20" width="810" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="xVZ7sIVGH8ffkbWRrJwr-28" value="" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.servers.web_server_green;" parent="dNxyNK7c78bLwvsdeMH5-20" vertex="1">
+          <mxGeometry x="150" y="20.5" width="70" height="89.5" as="geometry" />
+        </mxCell>
+        <mxCell id="xVZ7sIVGH8ffkbWRrJwr-40" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;" parent="dNxyNK7c78bLwvsdeMH5-20" source="xVZ7sIVGH8ffkbWRrJwr-2" target="xVZ7sIVGH8ffkbWRrJwr-28" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xVZ7sIVGH8ffkbWRrJwr-2" value="Benutzer" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;html=1;outlineConnect=0;" parent="dNxyNK7c78bLwvsdeMH5-20" vertex="1">
+          <mxGeometry x="50" y="35.25" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xVZ7sIVGH8ffkbWRrJwr-39" value="Der Benutzer sendet per WebRequest ein HTTP DELETE &lt;br&gt;an die WebApi (mit der Prozessinstanz-ID).&lt;br&gt;Die WebApi schreibt ein Shutdown-Flag in die Tabelle mit allen &lt;br&gt;laufenden Prozessen." style="rounded=1;align=center;fillColor=#F1F2F4;strokeColor=none;html=1;fontColor=#596780;fontSize=12" parent="dNxyNK7c78bLwvsdeMH5-20" vertex="1">
+          <mxGeometry x="240" y="20.5" width="360" height="89.5" as="geometry" />
+        </mxCell>
+        <mxCell id="dNxyNK7c78bLwvsdeMH5-21" value="SSMS" style="swimlane;html=1;startSize=20;horizontal=0;" parent="dNxyNK7c78bLwvsdeMH5-19" vertex="1">
+          <mxGeometry x="20" y="160" width="810" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="xVZ7sIVGH8ffkbWRrJwr-42" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;" parent="dNxyNK7c78bLwvsdeMH5-21" source="xVZ7sIVGH8ffkbWRrJwr-4" target="xVZ7sIVGH8ffkbWRrJwr-27" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xVZ7sIVGH8ffkbWRrJwr-4" value="Benutzer" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;html=1;outlineConnect=0;" parent="dNxyNK7c78bLwvsdeMH5-21" vertex="1">
+          <mxGeometry x="50" y="75" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xVZ7sIVGH8ffkbWRrJwr-27" value="" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#3334B9;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.rds_sql_server_instance;" parent="dNxyNK7c78bLwvsdeMH5-21" vertex="1">
+          <mxGeometry x="140" y="66" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="xVZ7sIVGH8ffkbWRrJwr-41" value="Der Benutzer gibt manuell per SSMS das ShutDown-Signal. &lt;br&gt;Hierfür sucht er in der Tabelle aller laufenden &lt;br&gt;Prozessinstanzen eine aus und setzt das Shutdown-Flag." style="rounded=1;align=center;fillColor=#F1F2F4;strokeColor=none;html=1;fontColor=#596780;fontSize=12" parent="dNxyNK7c78bLwvsdeMH5-21" vertex="1">
+          <mxGeometry x="240" y="65" width="360" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Vj8z7s9D_xnkWGPnD2JW-11" value="" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#3334B9;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.rds_sql_server_instance;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-21">
+          <mxGeometry x="640" y="67" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="dNxyNK7c78bLwvsdeMH5-38" style="orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;edgeStyle=entityRelationEdgeStyle;dashed=1;shadow=0;curved=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="dNxyNK7c78bLwvsdeMH5-19" source="xVZ7sIVGH8ffkbWRrJwr-11" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="220" as="sourcePoint" />
+            <mxPoint x="180.00000000000023" y="285" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xVZ7sIVGH8ffkbWRrJwr-14" style="orthogonalLoop=1;jettySize=auto;html=1;shadow=0;rounded=0;" parent="dNxyNK7c78bLwvsdeMH5-19" source="xVZ7sIVGH8ffkbWRrJwr-28" target="xVZ7sIVGH8ffkbWRrJwr-27" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="324.4000000000001" y="90" as="sourcePoint" />
+            <mxPoint x="180.00000000000023" y="205" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vj8z7s9D_xnkWGPnD2JW-8" value="Der Shutdown wird als erfolgreich &lt;br&gt;durchgeführt mit einem Timestamp versehen" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;exitX=1.003;exitY=0.439;exitDx=0;exitDy=0;exitPerimeter=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-19" source="xVZ7sIVGH8ffkbWRrJwr-43">
+          <mxGeometry x="0.6451" y="-20" relative="1" as="geometry">
+            <mxPoint x="700" y="420" as="sourcePoint" />
+            <mxPoint x="700" y="310" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dNxyNK7c78bLwvsdeMH5-22" value="Anwendung z.B. auf Analyse 02" style="swimlane;html=1;startSize=20;horizontal=0;" parent="dNxyNK7c78bLwvsdeMH5-19" vertex="1">
+          <mxGeometry x="20" y="370" width="810" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="xVZ7sIVGH8ffkbWRrJwr-11" value="Prozesssteuerung-NuGet-Paket" style="label;whiteSpace=wrap;html=1;align=center;verticalAlign=bottom;spacingLeft=0;spacingBottom=4;imageAlign=center;imageVerticalAlign=top;image=img/clipart/Gear_128x128.png;dashed=1;" parent="dNxyNK7c78bLwvsdeMH5-22" vertex="1">
+          <mxGeometry x="100" y="52.5" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xVZ7sIVGH8ffkbWRrJwr-48" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;" parent="dNxyNK7c78bLwvsdeMH5-22" source="xVZ7sIVGH8ffkbWRrJwr-11" target="xVZ7sIVGH8ffkbWRrJwr-47" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xVZ7sIVGH8ffkbWRrJwr-18" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.gauge;" parent="dNxyNK7c78bLwvsdeMH5-22" vertex="1">
+          <mxGeometry x="110" y="60" width="22" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Vj8z7s9D_xnkWGPnD2JW-9" value="Shutdown erfolgreich?" style="rhombus;html=1;align=center;whiteSpace=wrap;comic=1;strokeWidth=2;fontFamily=Comic Sans MS;fontStyle=1;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-22">
+          <mxGeometry x="690" y="49" width="100" height="87" as="geometry" />
+        </mxCell>
+        <mxCell id="xVZ7sIVGH8ffkbWRrJwr-47" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/humano2/128x128/apps/gnome-panel-force-quit.png" parent="dNxyNK7c78bLwvsdeMH5-22" vertex="1">
+          <mxGeometry x="105" y="192.5" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Vj8z7s9D_xnkWGPnD2JW-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;shadow=0;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-22" source="xVZ7sIVGH8ffkbWRrJwr-49" target="xVZ7sIVGH8ffkbWRrJwr-43">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="680" y="243" />
+              <mxPoint x="680" y="91" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xVZ7sIVGH8ffkbWRrJwr-49" value="Die Anwendung führt ein Cleanup durch und beendet sich selbst" style="rounded=1;align=center;fillColor=#F1F2F4;strokeColor=none;html=1;fontColor=#596780;fontSize=12" parent="dNxyNK7c78bLwvsdeMH5-22" vertex="1">
+          <mxGeometry x="240" y="202.5" width="360" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xVZ7sIVGH8ffkbWRrJwr-43" value="Das NuGet-Paket prüft periodisch ob, das Shutdown-Flag &lt;br&gt;gesetzt ist, wenn ja wird das OnShutDown-Event getriggert." style="rounded=1;align=center;fillColor=#F1F2F4;strokeColor=none;html=1;fontColor=#596780;fontSize=12" parent="dNxyNK7c78bLwvsdeMH5-22" vertex="1">
+          <mxGeometry x="240" y="52.5" width="360" height="77.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Vj8z7s9D_xnkWGPnD2JW-13" value="&lt;div&gt;Es gibt auch noch die Möglichkeit über &lt;br&gt;&lt;/div&gt;&lt;div&gt;HTTP PURGE den Process &quot;hart&quot; zu killen z.B.&lt;/div&gt;&lt;div&gt;HTTP PURGE processes/6380 &lt;br&gt;&lt;/div&gt;&lt;div&gt;HTTP PURGE processes/6380?server?analyse03&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="890" y="120" width="340" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="Vj8z7s9D_xnkWGPnD2JW-14" value="&lt;div&gt;Das Benutzer in der Datenbank &quot;rumturnen&quot; sollte vermieden werden.&lt;/div&gt;&lt;div&gt;Ist für die Entwicklungszeit aber erstmal unvermeidlich.&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="890" y="290" width="340" height="190" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

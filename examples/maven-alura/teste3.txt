@@ -1,0 +1,40 @@
+127.0.0.1	localhost
+127.0.1.1	serpro-1555522
+
+# The following lines are desirable for IPv6 capable hosts
+::1     ip6-localhost ip6-loopback
+fe00::0 ip6-localnet
+ff00::0 ip6-mcastprefix
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters
+127.0.0.1 productsearch.ubuntu.com
+127.0.0.1 videosearch.ubuntu.com
+127.0.0.1 musicsearch.ubuntu.com
+
+# Servidor da ferramenta SAGP
+10.200.176.96		gcp-pro
+
+# Servidor Web e de banco do Kanboard-1.0.12
+10.200.176.121 		kabala-web
+
+# Servidor Web do Kanboard-1.0.16
+10.200.176.169		kanboard-web
+
+# Bancos Matriz de Comunicação e backup do Kanboard
+10.200.176.167		matcom-dtb
+
+# Servidor Web do sistema da Matriz de Comunicação
+10.200.176.28		matcom-web
+
+# Banco de dados do Kanboard-1.0.22 - PostgreSQL-9.4
+10.200.176.244		kanboard-dtb
+
+# Servidor para treinamento Apache/JBoss
+10.200.176.33		apache
+
+# Estações de trabalho
+10.34.144.37		david
+10.34.144.39		brenda
+10.34.144.62		neide
+
+Alteração

@@ -1,0 +1,49 @@
+<mxfile host="app.diagrams.net" modified="2020-03-30T14:18:07.511Z" agent="5.0 (Windows)" etag="RIpz-AEEdD-8KjMzY5DM" version="12.9.4" type="github">
+  <diagram name="Page-1" id="82e54ff1-d628-8f03-85c4-9753963a91cd">
+    <mxGraphModel dx="2062" dy="1129" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4ec97bd9e5d20128-1" value="" style="line;strokeWidth=2;html=1;fillColor=none;fontSize=28;fontColor=#004D99;strokeColor=#004D99;" parent="1" vertex="1">
+          <mxGeometry x="40" y="400" width="1000" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="4ec97bd9e5d20128-5" value="Start" style="shape=offPageConnector;whiteSpace=wrap;html=1;fillColor=#0075E8;fontSize=15;fontColor=#FFFFFF;size=0.5093750000000015;verticalAlign=top;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="120" y="340" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4ec97bd9e5d20128-6" value="Monitoring" style="shape=offPageConnector;whiteSpace=wrap;html=1;fillColor=#0075E8;fontSize=15;fontColor=#FFFFFF;size=0.5093750000000015;verticalAlign=top;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="573" y="340" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4ec97bd9e5d20128-7" value="Deployment" style="shape=offPageConnector;whiteSpace=wrap;html=1;fillColor=#0075E8;fontSize=15;fontColor=#FFFFFF;size=0.4178571428571445;flipV=1;verticalAlign=bottom;strokeColor=none;spacingBottom=4;" parent="1" vertex="1">
+          <mxGeometry x="347" y="425" width="160" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="4ec97bd9e5d20128-8" value="Ende" style="shape=offPageConnector;whiteSpace=wrap;html=1;fillColor=#0075E8;fontSize=15;fontColor=#FFFFFF;size=0.4178571428571445;flipV=1;verticalAlign=bottom;strokeColor=none;spacingBottom=4;" parent="1" vertex="1">
+          <mxGeometry x="800" y="425" width="160" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="4ec97bd9e5d20128-9" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#61BAFF;fontSize=28;fontColor=#004D99;strokeWidth=3;strokeColor=#004D99;" parent="1" vertex="1">
+          <mxGeometry x="190" y="395" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="4ec97bd9e5d20128-10" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#61BAFF;fontSize=28;fontColor=#004D99;strokeWidth=3;strokeColor=#004D99;" parent="1" vertex="1">
+          <mxGeometry x="417" y="395" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="4ec97bd9e5d20128-11" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#61BAFF;fontSize=28;fontColor=#004D99;strokeWidth=3;strokeColor=#004D99;" parent="1" vertex="1">
+          <mxGeometry x="643" y="395" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="4ec97bd9e5d20128-13" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#61BAFF;fontSize=28;fontColor=#004D99;strokeWidth=3;strokeColor=#004D99;" parent="1" vertex="1">
+          <mxGeometry x="870" y="395" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="4ec97bd9e5d20128-14" value="&lt;h1&gt;Setup&lt;br&gt;&lt;/h1&gt;&lt;p&gt;Die Anwendung wird im Setup-Modus gestartet. &lt;br&gt;&lt;/p&gt;&lt;p&gt;Hierfür wird das Setup-Event des NuGet-Paketes für die Prozesssteuerung von der Anwendung implementiert.&lt;br&gt;&lt;/p&gt;&lt;p&gt;Die Daten können vorbereitet und partitioniert werden.&lt;/p&gt;&lt;p&gt;Die Anwendung beendet sich nach dem Setup.&lt;br&gt;&lt;/p&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;strokeColor=none;strokeWidth=3;fillColor=#E6E6E6;fontSize=13;fontColor=#000000;align=center;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="93" y="430" width="215" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="4ec97bd9e5d20128-16" value="&lt;h1&gt;Starten der Prozesse&lt;br&gt;&lt;/h1&gt;&lt;p&gt;Die Prozesse werden auf den registrierten Anwendungsservern per WebRequest gestartet.&lt;/p&gt;&lt;p&gt;Über &lt;br&gt;GET/memory bzw.&lt;br&gt;GET/cpu &lt;br&gt;kann die überprüft werden, ob auf den jeweiligen Servern genug Ressourcen vorhanden sind&lt;br&gt;&lt;/p&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;strokeColor=none;strokeWidth=3;fillColor=#E6E6E6;fontSize=13;fontColor=#000000;align=center;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="319" y="110" width="215" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="4ec97bd9e5d20128-17" value="&lt;h1&gt;Ping &amp;amp; ShutDown&lt;br&gt;&lt;/h1&gt;&lt;p&gt;Das NuGet-Paket für die Prozesssteuerung führt periodisch 2 Aktionen durch:&lt;/p&gt;&lt;p&gt;- Es prüft, ob ein ShutDown erfolgen soll, dies kann über die Anwendung per OnShutDown-Event implementiert werden&lt;br&gt;&lt;/p&gt;&lt;p&gt;- Es wird regelmäßig ein KeepAlive / Ping evtl. sogar ein Progress-Signal übermittelt.&lt;/p&gt;&lt;p&gt;Hierdurch können wir die Prozesse monitoren.&lt;br&gt;&lt;/p&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;strokeColor=none;strokeWidth=3;fillColor=#E6E6E6;fontSize=13;fontColor=#000000;align=center;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="545" y="430" width="215" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="4ec97bd9e5d20128-18" value="&lt;h1&gt;Logging / Reporting&lt;br&gt;&lt;/h1&gt;&lt;p&gt;Sobald ein Prozess seine Daten verarbeitet hat, meldet er dies über das NuGet-Paket der Prozesssteuerung.&lt;/p&gt;&lt;p&gt;Hierfür könnte z.B. ein OnSuccess oder OnFinish-Event implementiert werden.&lt;/p&gt;&lt;p&gt;Sollte es Fehler gegeben haben werden diese geloggt. &lt;br&gt;&lt;/p&gt;&lt;p&gt;Diese Ausführungsdauer / Datenmenge etc. sollte geloggt werden, um Statistiken zu erstellen.&lt;br&gt;&lt;/p&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;strokeColor=none;strokeWidth=3;fillColor=#E6E6E6;fontSize=13;fontColor=#000000;align=center;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="773" y="90" width="287" height="280" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

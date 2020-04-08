@@ -1,0 +1,145 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath, amsfonts, graphicx}
+\usepackage{hyperref, indentfirst}
+\usepackage{bbold}
+%opening
+\title{Projective Spaces}
+\author{}
+\newcommand{\diag}{\mathop{\mathrm{diag}}}
+%\vspace{-15ex}
+\date{}
+
+
+\begin{document}
+\maketitle
+\section{Definition}
+
+Real(complex) projective space $\mathbb{RP}^n$ ($\mathbb{CP}^n$) is the set of lines in $\mathbb{R}^{n+1})$ ($\mathbb{C}^{n+1}$) passing through the origin. Given a Cartesian coordinate system $(x_1,\ldots, x_{n+1})$ in $\mathbb{R}^{n+1}$ ($\mathbb{C}^{n+1}$) there are $n+1$ natural charts of $\mathbb{RP}^n$ ($\mathbb{CP}^n$) defined as follows:
+
+\begin{equation}
+ \xi_i^{(k)} = \frac{x_i}{x_k}, \quad x_k\neq 0 \label{chartk},
+\end{equation}
+with the transition functions between the $j$-th and $k$-th charts:
+
+\begin{equation}
+ \xi^{(k)}_i = \frac{\xi^{(j)}_i }{\xi^{(j)}_k }
+\end{equation}
+
+For the most dimensions the {\it atlas } of this charts is overcomplete \cite{mhopkins}.
+
+Although they share a number of common properties, the real and complex projective spaces are different. To illustrate this, let us consider the relation of these spaces to spheres. An $n$-dimensional sphere can be defined as the set of rays (not lines!) starting from the origin. Indeed, a ray intersects the sphere with the center in the origin in a single point and hence uniquely specifies the point of the sphere. Contrary, a point on the sphere uniquely identifies a ray from the origin. On the other hand, a line passing through the origin intersects the sphere in two antipodal points. Hence, we can think about the real projective space as about a sphere, where we identified all antipodal points (all rays which are on the same line). In the language of topological fibrations this is written as follows:
+
+\begin{equation}
+\mathbb{RP}^n = S^{n}/\mathbb{Z}^2,
+\end{equation} 
+where $\mathbb{Z}^2$ is the cyclic group $(-1,1)$ of order 2. Since $\mathbb{RP}^1 = S^1$, for $n=1$ this is the famous M\"obius strip.
+
+A similar construction relates $2n+1$ dimensional spheres and complex projective spaces:
+\begin{equation}
+\mathbb{CP}^n = S^{2n+1}/S^1.
+\end{equation}
+This is the so-called first Hopf's fibration.
+
+This example illustrates that the complex projective spaces have richer geometry than real projective ones. On the other hand, it is clear, that as long as we restrict ourselves to real transformations, we can always think about a real projective space as real projection of the complex one. Hence, below, if not specified specially, we will always assume that we work with a complex projective space.
+
+\section{Homogeneous coordinates}
+
+Two points $x$ and $\alpha x$  are on the same line passing through the origin.  Hence, although a set of coordinates $x = (x_1, \ldots, x_{n+1})$ uniquely identifies a point on the projective space, so does the set of coordinates $\alpha x$. So, from the perspective of the projective space the coordinates $x$ are defined up to a scalar multiplier. They are regarded as {\it homogeneous coordinates} of the projective space, in contrast to the {\it inhomogeneous coordinates $\xi$ \eqref{chartk}}.  Throughout the post, we will use {\it homogeneous}  and {\it inhomogeneous} coordinates interchangeably.
+
+\section{Hyperplanes as dual projective space}
+
+Consider an $n$-dimensional hyperplane of $\mathbb{R}^{n+1}$($\mathbb{C}^{n+1}$) passing through the origin. An $n$-dimensional plane is defined via the following linear constraint:
+
+\begin{equation}
+ \sum\limits_{i=1}^{n+1} a_i x_i \equiv a^Tx \equiv a\cdot x = 0\label{hyperplane}
+\end{equation}
+
+Obviously, the parameters $a$ are defined up to a scalar multiplier, i.e. $\forall\alpha\neq 0$ the parameters $a$ and $\alpha a$ define the same hyperplane. This means, that the set of $n$-dimensional hyperplanes passing through the origin form a dual projective space $\mathbb{RP}^{n*}/\mathbb{CP}^{n*}$ with $a$'s being its {\it homogeneous coordinates}. 
+
+An invertable linear transformation $H: x \to H x$ with respect to \eqref{hyperplane} transforms the dual space as follows:
+\begin{equation}
+ x\to Hx, \quad a\to H^{-T} a.
+\end{equation}
+
+In the language of vector analysis they say that the hyperplanes transform covariantly\footnote{ Strictly speaking, the co/contra-variant transformations are defined for special geometric objects called tensors(vectors) only. However, since we restrict ourselves to considering only linear transformations of the coordinates, we can use those terms with regard to the coordinates and their duals. }
+
+\section{Conics}
+
+Consider the following  pure quadratic equation:
+
+\begin{equation}
+ x^\dag C x = 0,\label{conic}
+\end{equation}
+where  $C$ is an $(n+1) \times (n+1)$ dimensional matrix and $x^\dag \equiv {\bar x}^T$ is the so-called Hermitian conjugate of $x$ - the complex conjugate transposed. Since the complex conjugate of a real number equals to itself,  for real coordinates $x$ the operation $x^\dag$ coincides with the transpose. 
+
+It is clear, that 
+
+\begin{equation}
+ C^\dag\equiv {\bar C}^T= C,\label{hermitian}
+\end{equation}
+because the anti-Hermitian part in \eqref{conic} vanishes by itself.  Matrices which satisfy the condition \eqref{hermitian} are called Hermitian matrices. Obviously, the real analogues of Hermitian matrices are the symmetric ones.
+
+Let us observe, that the matrix $C$ is defined up to an arbitrary multiplier. Indeed, the transformation $C\to \alpha C$, $\alpha\neq 0$ does not affect the equation \eqref{conic}.
+
+An arbitrary linear transformation $x \to H x$ transforms the matrix $C$ as follows:
+
+\begin{equation}
+ C \to H^{-\dag} C H^{-1}.\label{ctrans}
+\end{equation}
+
+On the other hand, according to the Spectral Theorem, the matrix which diagonalizes a Hermitian matrix $C$ is a unitary matrix, i.e. for a Hermitian matrix $C$ there exists a unitary matrix $U$ such that
+
+\begin{equation}
+ U^{-1} C U = \diag\{\lambda_1,\ldots, \lambda_{n+1}\},\quad  U^\dag = U^{-1}.
+\end{equation}
+
+If the matrix $C$ is a real symmetric matrix, then the matrix $R$ which diagonalizes $C$ is a rotation matrix
+\begin{equation}
+ R^TR=\mathbb{1}\quad\text{or}\quad R^{-1} = R^{T}.
+\end{equation}
+Note, that the real unitary matrices are the orthogonal matrices.
+
+Let the matrix $U$ diagonalizes $C$. Then, in the new coordinate system  $\tilde{x} = U x$ the equation \eqref{conic} takes the following form:
+
+\begin{equation}
+ \sum\limits_{i=1}^{n+1} \lambda_i \tilde{x}_i^2 = 0\label{cdiag}
+\end{equation}
+
+For complex coordinates and matrices $C$ \eqref{cdiag} and \eqref{conic} define conic surfaces in $\mathbb{C}^{n+1}$. 
+
+On the other hand, for real coordinates $x$ and symmetric matrices $C$ the equation\eqref{cdiag} has non-trivial solution only if there are at least 2 eigenvalues with opposite signs. Indeed, if $\lambda_i >0$ $\forall i$ implies that $\tilde{x} = 0$, which, in its term implies that $x = 0$ (since the null-space of a rotation matrix is 0).
+
+Nevertheless, if the conditions above satisfied, the equation \eqref{conic} defines a conic surface in the (complex) Euclidean space which is projected on the corresponding projective space. In particular, the image of the surface on the $k$-th map is defined via the projection formula \eqref{chartk}.
+
+The equation \eqref{conic} on the $k$-th map has the form of the most generic quadratic equation:
+\begin{equation}
+ x^\dag C x / x^\dag x = \xi^\dag C^{(k)} + \xi^\dag C^k + C_k \xi + C_{k,k}= 0,
+\end{equation}
+where $C^{(k)}$ is the matrix obtained by removing $k$-th row and column from $C$ and $C_k$ is the $k$-th row and $C^k$ is the $k$-th column of $C$ with the removed $k$-th element. 
+
+{\bf Example}
+
+Let $C = \diag{\{1,1,\ldots,1,-1\}}$. Then in the ambient space $\mathbb{R}^{n+1}$ $x$ the equation \eqref{conic} looks as follows:
+\begin{equation}
+ \sum\limits_{i=1}^n x_i^2 = x_{n+1}^2
+\end{equation}
+
+or, projected on the $n+1$-th chart:
+
+\begin{equation}
+\sum\limits_{i=1}^n \xi_i^2  = 1.
+\end{equation}
+The latter is the equation of $n-1$-dimensional sphere.
+
+As we will see later, conics play a crucial role in the theory computer vision.
+
+
+\begin{thebibliography}{1}
+\bibitem{mhopkins} Hopkins M.J. (1989) Minimal atlases of real projective spaces. In: Carlsson G., Cohen R., Miller H., Ravenel D. (eds) Algebraic Topology. Lecture Notes in Mathematics, vol 1370. Springer, Berlin, Heidelberg
+\end{thebibliography}
+
+
+\end{document}
+
+

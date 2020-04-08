@@ -1,0 +1,175 @@
+<mxfile host="app.diagrams.net" modified="2020-03-31T16:09:35.389Z" agent="5.0 (Macintosh)" etag="j5yWxdTvbg5z2IpkpiYy" version="12.9.6" type="github">
+  <diagram id="qM1JIyc1ACgNBS5N2Viz" name="Page-1">
+    <mxGraphModel dx="786" dy="467" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="VfJYAQB2uC8YGuSU03gs-17" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="50" y="30" width="570" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="VfJYAQB2uC8YGuSU03gs-10" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="80" y="65" width="176" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="VfJYAQB2uC8YGuSU03gs-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="VfJYAQB2uC8YGuSU03gs-1" target="VfJYAQB2uC8YGuSU03gs-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VfJYAQB2uC8YGuSU03gs-1" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/delta/128/MS-DOS_Batch_File.png" parent="1" vertex="1">
+          <mxGeometry x="138" y="106" width="48" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="VfJYAQB2uC8YGuSU03gs-4" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="380" y="65" width="230" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="VfJYAQB2uC8YGuSU03gs-5" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.storage_gateway;fillColor=#E05243;gradientColor=none;" parent="1" vertex="1">
+          <mxGeometry x="350" y="105" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VfJYAQB2uC8YGuSU03gs-6" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.s3;fillColor=#E05243;gradientColor=none;" parent="1" vertex="1">
+          <mxGeometry x="460" y="97.13" width="70" height="75.75" as="geometry" />
+        </mxCell>
+        <mxCell id="VfJYAQB2uC8YGuSU03gs-11" value="&lt;b&gt;Kubernetes&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="124" y="68.5" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VfJYAQB2uC8YGuSU03gs-12" value="SPO" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="475" y="68.5" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VfJYAQB2uC8YGuSU03gs-13" value="&lt;div&gt;Cronjob&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="138" y="154" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VfJYAQB2uC8YGuSU03gs-14" value="&lt;div&gt;python - radosgw&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="210" y="111" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VfJYAQB2uC8YGuSU03gs-18" value="&lt;div&gt;Estaleiro - Nuvem Privada&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="255" y="40" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VfJYAQB2uC8YGuSU03gs-19" value="&lt;div&gt;storage.estaleiro.serpro.gov.br&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontStyle=0" parent="1" vertex="1">
+          <mxGeometry x="285" y="159" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VfJYAQB2uC8YGuSU03gs-33" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="50" y="240" width="570" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="VfJYAQB2uC8YGuSU03gs-34" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="80" y="275" width="176" height="285" as="geometry" />
+        </mxCell>
+        <mxCell id="VfJYAQB2uC8YGuSU03gs-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="VfJYAQB2uC8YGuSU03gs-36" target="VfJYAQB2uC8YGuSU03gs-38" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VfJYAQB2uC8YGuSU03gs-36" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/delta/128/MS-DOS_Batch_File.png" parent="1" vertex="1">
+          <mxGeometry x="138" y="316" width="48" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="VfJYAQB2uC8YGuSU03gs-37" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="380" y="275" width="230" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="VfJYAQB2uC8YGuSU03gs-38" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.storage_gateway;fillColor=#E05243;gradientColor=none;" parent="1" vertex="1">
+          <mxGeometry x="350" y="315" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VfJYAQB2uC8YGuSU03gs-39" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.s3;fillColor=#E05243;gradientColor=none;" parent="1" vertex="1">
+          <mxGeometry x="460" y="307.13" width="70" height="75.75" as="geometry" />
+        </mxCell>
+        <mxCell id="VfJYAQB2uC8YGuSU03gs-40" value="&lt;b&gt;Kubernetes&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="124" y="278.5" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VfJYAQB2uC8YGuSU03gs-41" value="SPO" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="475" y="278.5" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VfJYAQB2uC8YGuSU03gs-42" value="&lt;div&gt;Cronjob&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="138" y="364" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VfJYAQB2uC8YGuSU03gs-43" value="&lt;div&gt;python - radosgw&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="210" y="321" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VfJYAQB2uC8YGuSU03gs-44" value="&lt;div&gt;Estaleiro - Nuvem Privada&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="255" y="250" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VfJYAQB2uC8YGuSU03gs-45" value="&lt;div&gt;storage.estaleiro.serpro.gov.br&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontStyle=0" parent="1" vertex="1">
+          <mxGeometry x="285" y="369" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VfJYAQB2uC8YGuSU03gs-46" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="380" y="423.88" width="230" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="VfJYAQB2uC8YGuSU03gs-47" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.storage_gateway;fillColor=#E05243;gradientColor=none;" parent="1" vertex="1">
+          <mxGeometry x="350" y="468.88" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VfJYAQB2uC8YGuSU03gs-48" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.s3;fillColor=#E05243;gradientColor=none;" parent="1" vertex="1">
+          <mxGeometry x="460" y="456.01" width="70" height="75.75" as="geometry" />
+        </mxCell>
+        <mxCell id="VfJYAQB2uC8YGuSU03gs-49" value="BSB" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="475" y="423.88" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VfJYAQB2uC8YGuSU03gs-51" value="&lt;div&gt;s3.i02.estaleiro.serpro.gov.br&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="290" y="520" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VfJYAQB2uC8YGuSU03gs-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="VfJYAQB2uC8YGuSU03gs-52" target="VfJYAQB2uC8YGuSU03gs-47" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VfJYAQB2uC8YGuSU03gs-52" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/delta/128/MS-DOS_Batch_File.png" parent="1" vertex="1">
+          <mxGeometry x="138" y="469.88" width="48" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="VfJYAQB2uC8YGuSU03gs-53" value="&lt;div&gt;Cronjob&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="138" y="517.88" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VfJYAQB2uC8YGuSU03gs-54" value="&lt;div&gt;python - radosgw&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="210" y="474.88" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VfJYAQB2uC8YGuSU03gs-56" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="50" y="600" width="570" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="VfJYAQB2uC8YGuSU03gs-57" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="79" y="702.5" width="176" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="VfJYAQB2uC8YGuSU03gs-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="VfJYAQB2uC8YGuSU03gs-59" target="VfJYAQB2uC8YGuSU03gs-61" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VfJYAQB2uC8YGuSU03gs-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="VfJYAQB2uC8YGuSU03gs-59" target="VfJYAQB2uC8YGuSU03gs-70" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VfJYAQB2uC8YGuSU03gs-59" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/delta/128/MS-DOS_Batch_File.png" parent="1" vertex="1">
+          <mxGeometry x="137" y="743.5" width="48" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="VfJYAQB2uC8YGuSU03gs-60" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="380" y="635" width="230" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="VfJYAQB2uC8YGuSU03gs-61" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.storage_gateway;fillColor=#E05243;gradientColor=none;" parent="1" vertex="1">
+          <mxGeometry x="350" y="675" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VfJYAQB2uC8YGuSU03gs-62" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.s3;fillColor=#E05243;gradientColor=none;" parent="1" vertex="1">
+          <mxGeometry x="460" y="667.13" width="70" height="75.75" as="geometry" />
+        </mxCell>
+        <mxCell id="VfJYAQB2uC8YGuSU03gs-63" value="&lt;b&gt;Kubernetes&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="123" y="706" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VfJYAQB2uC8YGuSU03gs-64" value="SPO" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="475" y="638.5" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VfJYAQB2uC8YGuSU03gs-65" value="&lt;div&gt;Cronjob&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="137" y="791.5" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VfJYAQB2uC8YGuSU03gs-66" value="&lt;div&gt;python&lt;/div&gt;&lt;div&gt;radosgw&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="270" y="667.13" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VfJYAQB2uC8YGuSU03gs-67" value="&lt;div&gt;Estaleiro - Nuvem Privada&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="255" y="610" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VfJYAQB2uC8YGuSU03gs-68" value="&lt;div&gt;storage.estaleiro.serpro.gov.br&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontStyle=0" parent="1" vertex="1">
+          <mxGeometry x="285" y="729" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VfJYAQB2uC8YGuSU03gs-69" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="380" y="783.88" width="230" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="VfJYAQB2uC8YGuSU03gs-70" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.storage_gateway;fillColor=#E05243;gradientColor=none;" parent="1" vertex="1">
+          <mxGeometry x="350" y="828.88" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VfJYAQB2uC8YGuSU03gs-71" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.s3;fillColor=#E05243;gradientColor=none;" parent="1" vertex="1">
+          <mxGeometry x="460" y="816.01" width="70" height="75.75" as="geometry" />
+        </mxCell>
+        <mxCell id="VfJYAQB2uC8YGuSU03gs-72" value="BSB" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="475" y="783.88" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VfJYAQB2uC8YGuSU03gs-73" value="&lt;div&gt;s3.i02.estaleiro.serpro.gov.br&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="290" y="880" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VfJYAQB2uC8YGuSU03gs-79" value="&lt;div&gt;python&lt;/div&gt;&lt;div&gt;radosgw&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="270" y="820" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
